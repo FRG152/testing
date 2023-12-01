@@ -17,7 +17,7 @@ function App() {
   return (
     <form onSubmit={formik.handleSubmit}>
       <label htmlFor="email">Email Address</label>
-      {/* <InputComponent name="input01" formik={formik} />
+      <InputComponent name="input01" formik={formik} />
       <InputComponent name="input02" formik={formik} />
       <InputComponent name="input03" formik={formik} />
       <InputComponent name="input04" formik={formik} />
@@ -36,8 +36,8 @@ function App() {
       <InputComponent name="input17" formik={formik} />
       <InputComponent name="input18" formik={formik} />
       <InputComponent name="input19" formik={formik} />
-      <InputComponent name="input20" formik={formik} /> */}
-      <TextField
+      <InputComponent name="input20" formik={formik} />
+      {/* <TextField
         id="email"
         name="input01"
         type="text"
@@ -176,7 +176,7 @@ function App() {
         type="text"
         onChange={formik.handleChange}
         value={formik.values.input20}
-      />
+      /> */}
       <button type="submit">Submit</button>
     </form>
   );
